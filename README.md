@@ -1,6 +1,6 @@
 # Checkok: Conversão de Temperatura
 
-## clone
+## instalação
 Clone o repositório para um local específico do seu computador via linha de comando.
 
     git clone https://github.com/gabrielrtakeda/checkok.dev.git
