@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Verdana, Courier;
+    font-size: 0.7em;
+}
+
+article {
+    position: absolute;
+    width: 660px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -330px;
+    text-align: center;
+}
+
+form#conversion {
+    position: relative;
+    width: 660px;
+}
+
+form#conversion input {
+    font-size: 3em;
+    padding: 10px 45px 11px;
+    width: 200px;
+}
+
+form#conversion input.error {
+    border: 1px solid red;
+}
+
+form#conversion input.error:focus {
+    outline-color: red;
+}
+
+form#conversion .iconChange {
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+}
+
+form#conversion .iconChange:hover {
+    background-color: #FFC3A3;
+}
+
+form#conversion .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+form#conversion .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.icon64 {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon64Rounded {
+    border-radius: 64px;
+}
+
+.iconChange {
+    background: url(
+        'https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-14-64.png'
+    );
+}

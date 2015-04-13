@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Checkok: Conversão de Temperatura</title>
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="/css/temperatureConversion/index.css" />
+
+        <!-- Javascript -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="/js/generic/DataTransformer.js"></script>
+        <script type="text/javascript" src="/js/temperatureConversion/index.js"></script>
+    </head>
+
+    <body>
+        <article>
+            <header>
+                <h1>Checkok: Conversão de Temperatura</h1>
+            </header>
+            <section>
+                <form id="conversion" method="post">
+                    <input type="hidden"
+                           id="celsiusBaseType"
+                           class="conversionType"
+                           value="celsiusToFahrenheit"
+                           enabled="true"
+                    />
+                    <input type="hidden"
+                           id="fahrenheitBaseType"
+                           class="conversionType"
+                           value="fahrenheitToCelsius"
+                           enabled="false"
+                    />
+                    <input type="text"
+                           id="celsius"
+                           name="celsius"
+                           class="left"
+                           placeholder="Celsius"
+                           autofocus
+                    />
+                    <a id="changeConversionType"
+                       href="#"
+                       class="icon64 icon64Rounded iconChange"
+                    ></a>
+                    <input type="text"
+                           id="fahrenheit"
+                           name="fahrenheit"
+                           class="right"
+                           placeholder="Fahrenheit"
+                    />
+                    <button type="submit" class="hide"></button>
+                </form>
+            </section>
+        </article>
+    </body>
+</html>
