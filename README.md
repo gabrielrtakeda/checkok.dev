@@ -1,5 +1,14 @@
 # Checkok: Conversão de Temperatura
 
+## clone
+Clone o repositório para um local específico do seu computador via linha de comando.
+
+    git clone https://github.com/gabrielrtakeda/checkok.dev.git
+
+ou baixe o **.zip** e instale manualmente [aqui](https://github.com/gabrielrtakeda/checkok.dev/archive/master.zip).
+
+E renomeie o diretório extraído para **checkok.dev**.
+
 ## host
 Adicionar as seguintes linhas em **/etc/hosts**:
 
